@@ -1,0 +1,55 @@
+NOTE: tailwind website -> get started -> Framework Guides
+⬇️
+1) npm create vite@latest my-project -- --template react
+    cd my-project
+
+2) npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+
+3) tailwind.config.js file er ➡️ content: [], replace by ⬇️
+
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+
+4) src folder er moddhe index.css er all code delete kore nicher coe paste krote hobe ⬇️
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+0000) src folder er moddhe App.css er code rakhar dorkar nai.. delete korte hobe
+
+
+5) npm run dev
+
+
+
+NOTE:
+tailwind class sugest na korle -> (ctrl space)
+
+
+NOTE: daisyUI component library install process
+daisyUI website -> Install -> Tailwind Plugin ⬇️
+new terminal so, again path select korte hobe... then⬇️⬇️
+
+1) npm i -D daisyui@latest
+
+2) tailwind.config.js file er moddhe plugins: [], replace by ⬇️⬇
+      plugins: [
+    require('daisyui'),
+  ],
+
+
+
+000) 2 numbe step er por error asbe. (require is not define)
+    eta solve korar process ⬇️⬇️⬇️⬇️⬇️
+
+ ➡️   .eslintrc.cjs file er 3 number line e env{...} er moddhe node:true  add korte hobe
+
+
+
