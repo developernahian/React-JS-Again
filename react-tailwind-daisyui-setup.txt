@@ -53,3 +53,45 @@ new terminal so, again path select korte hobe... then⬇️⬇️
 
 
 
+NOTE: dist folder create er jonne⬇️
+
+  npm run build
+
+
+************* DONE **************
+
+  (npm init -y ->kono ak error er jonne eta npm run build er age diyechilam, error na asle ei command er dorkar nai)
+***************************************
+
+
+
+NOTE:
+  SURGE deply
+
+  select cmd,,, not powershell
+
+  type surge -V for if i want to check verson 
+  
+  my-project folder ba project foler moddhe theke type -> surge dist
+
+  domain url suggest korbe then url edit kore accept na kora porjonto try korte hobe
+
+  url accept korle public folder er moddhe CNAME file create kore domain nam paste korte hobe
+
+ 
+NOTE:
+ code e edit korle dist update er jonno again⬇️⬇️
+                                     npm run build
+  then surge update korar jonno⬇️⬇️ 
+                            surge dist
+
+
+*************** DONE **************
+
+more about surge⬇️⬇️
+
+surge er all comman er list dekhar jonno ➡️➡️ surge -h
+surge e kon kon domain create korechi dekhar jonno ➡️➡️ surge list
+surge e kon mail login kora seta check korar jonno ➡️➡️ surge whoami
+delete any domain then ➡️➡️ surge teardown ➡️➡️ write the domain and enter
+

@@ -1,0 +1,42 @@
+rsc ->
+
+************* propType *************
+
+protType -> propType webstie ⬇️
+install -> npm install --save prop-types   ⬇️
+import ->  import PropTypes from 'prop-types';   
+            Link.propTypes = {
+            route: PropTypes.object
+            }
+
+******************** react icons ********************
+
+react icon -> website ⬇️
+install -> npm install react-icons
+        (no need to use --save eta website e aceh but dorkar nai --save use korar dorkar nai)
+
+        search icon and click the icon then import icon and paste icon name in jsx file
+
+    icon edit korte chaile <FiMenu className="text-3xl"></FiMenu> evabe className use kore edit kora jai
+
+
+
+    ************************** React Chart ***********************
+    https://recharts.org/en-US  ⬇️⬇️
+
+            installation ⬇️⬇️
+                     npm install recharts
+
+
+Import this package⬇️⬇️
+    import { LineChart, Line , and so many other when need } from 'recharts';
+
+then follow code instruction 
+NOTE: follow B10-M-44-6
+
+
+
+************************* Axios ********************************** 
+?
+?
+?
