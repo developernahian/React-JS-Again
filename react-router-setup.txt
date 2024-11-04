@@ -1,0 +1,13 @@
+visti react router website -> tutorial -> follow setps that given bellow ⬇️
+            ⬇️
+1->     npm create vite@latest name-of-your-project -- --template react
+        ⬇️⬇️⬇️⬇️
+2->     cd <your new project directory>
+        ⬇️⬇️⬇️⬇️
+3->     npm install react-router-dom
+        ⬇️⬇️⬇️⬇️
+4->     npm install localforage match-sorter sort-by
+        ⬇️⬇️⬇️⬇️
+2->     npm run dev
+
+NOTE:  (npm install react-router-dom localforage match-sorter sort-by) step 3 and 4 marge kore aksathe ei command ta dewa jai
